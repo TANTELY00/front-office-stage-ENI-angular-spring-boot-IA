@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="container flex items-center justify-between h-16 ">
+
+            <div>
+                <p class="text-3xl uppercase font-bold">ohatra</p>
+            </div>
+
+            <div id="nav-menu" class="absolute flex items-center justify-center top-0 left-[-100%] w-full
+             min-h-[100vh] backdrop-blur-sm duration-300 overflow-hidden lg:static
+             lg:min-h-fit lg:bg-transparent lg:w-auto" >
+
+                <ul class="listes__des__menus flex flex-col items-center gap-8 lg:flex-row text-xl">
+                    <li>
+                        <a href="#" class="nav-link">accueil</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-lik">à propos</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link">catégorie</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">service</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="text-2xl z-50 cursor-pointer lg:hidden">
+                <i class="ri-menu-line" id="humburger"></i> <!-- Correction ici -->
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- body -->
+    <main>
+        <!-- section accueil -->
+        <div>
+            <div class="uppercase flex flex-row items-center justify-center min-h-80 ">
+                <p class="xl:text-9xl lg:text-8xl md:text-7xl sm:text-6xl text-5xl">ohatra</p>
+            </div>
+            <canvas class="text-white">teste</canvas>
+            <div class="uppercase flex flex-row items-center justify-center text-white">
+                <canvas  id="myCanvas" ></canvas>
+            </div>
+            
+        </div>
+
+
+        <!-- section a propos -->
+
+
+        <!-- section categorie -->
+
+
+        <!-- section service -->
+        
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+
+    <!-- main.js -->
+
+    <script src="src/main.js" ></script> 
+</body>
+
+
+</html>
